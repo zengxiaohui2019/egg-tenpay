@@ -1,6 +1,6 @@
 {
   "name": "egg-tenpay-zengxiaohui",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "egg plugin for tenpay-zengxiaohui",
   "eggPlugin": {
     "name": "tenpay-zengxiaohui"

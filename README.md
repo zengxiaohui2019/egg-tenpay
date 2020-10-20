@@ -1,4 +1,4 @@
-# egg-tenpay
+# egg-tenpay-zengxiaohui 基于egg-tenpay优化
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -25,7 +25,7 @@ egg plugin for [tenpay](https://github.com/befinal/node-tenpay)
 ## Install
 
 ```bash
-$ npm i egg-tenpay --save
+$ npm i egg-tenpay-zengxiaohui --save
 ```
 
 ## Usage
@@ -34,7 +34,7 @@ $ npm i egg-tenpay --save
 // {app_root}/config/plugin.js
 exports.tenpay = {
   enable: true,
-  package: 'egg-tenpay'
+  package: 'egg-tenpay-zengxiaohui'
 };
 ```
 
@@ -49,7 +49,7 @@ exports.tenpay = {
     mchid: 'mchid',
     partnerKey: 'partnerKey',
     notify_url: 'notify_url',
-    sandbox: true // sandbox是插件加的
+    sandbox: true // sandbox是否沙箱
   }
 };
 ```
