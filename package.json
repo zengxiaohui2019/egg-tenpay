@@ -11,7 +11,7 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "tenpay": "git+ssh://git@github.com:zengxiaohui2019/egg-tenpay.git#v2.1.19"
+    "tenpay": "git+ssh://git@github.com:zengxiaohui2019/node-tenpay.git#v2.1.19"
   },
   "devDependencies": {
     "autod": "^3.0.1",
