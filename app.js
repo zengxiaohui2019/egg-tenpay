@@ -1,5 +1,5 @@
 'use strict';
-const tenpay = require('tenpay');
+const tenpay = require('tenpay-zengxiaohui');
 
 const createWeapy = async (config) => {
   if(config.sandbox) {

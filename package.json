@@ -1,9 +1,9 @@
 {
-  "name": "egg-tenpay",
-  "version": "1.0.2",
-  "description": "egg plugin for tenpay",
+  "name": "egg-tenpay-zengxiaohui",
+  "version": "1.0.3",
+  "description": "egg plugin for tenpay-zengxiaohui",
   "eggPlugin": {
-    "name": "tenpay"
+    "name": "tenpay-zengxiaohui"
   },
   "keywords": [
     "egg",
@@ -11,7 +11,7 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "tenpay": "git+ssh://git@github.com:zengxiaohui2019/node-tenpay.git#v2.1.19"
+    "tenpay-zengxiaohui": "^2.1.20"
   },
   "devDependencies": {
     "autod": "^3.0.1",
@@ -45,12 +45,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wbget/egg-tenpay.git"
+    "url": "git+https://github.com/zengxiaohui2019/tenpay-zengxiaohui.git"
   },
   "bugs": {
-    "url": "https://github.com/wbget/egg-tenpay/issues"
+    "url": "https://github.com/zengxiaohui2019/tenpay-zengxiaohui/issues"
   },
-  "homepage": "https://github.com/wbget/egg-tenpay#readme",
-  "author": "wbget",
+  "homepage": "https://github.com/zengxiaohui2019/tenpay-zengxiaohui#readme",
+  "author": "wbget 优化zengxiaohui",
   "license": "MIT"
 }
