@@ -1,8 +1,12 @@
 'use strict';
 const tenpay = require('tenpay');
 
-const createWeapy = config => {
-  return new tenpay(config, !!config.sandbox);
+const createWeapy = async (config) => {
+  if(config.sandbox) {
+    return await tenpay.sandbox(config, !!config.sandbox);
+  } else {
+    return new tenpay(config, !!config.sandbox);
+  }
 };
 
 class AppBootHook {

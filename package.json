@@ -1,6 +1,6 @@
 {
   "name": "egg-tenpay",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "egg plugin for tenpay",
   "eggPlugin": {
     "name": "tenpay"
@@ -11,7 +11,7 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "tenpay": "^2.1.18"
+    "tenpay": "git+ssh://git@github.com:zengxiaohui2019/egg-tenpay.git#v2.1.19"
   },
   "devDependencies": {
     "autod": "^3.0.1",
